@@ -24,15 +24,7 @@ export const Titulo = styled.h2`
   }
 `
 
-export const Botao = styled.div`
-  background-color: #f53b57;
-  display: inline-block;
-  font-size: 1rem;
-  padding: .25rem 1rem;
-  margin: 1rem 0;
-  border-radius: 5px;
-`
-export const Sobre = styled.div`
+export const Conteudo = styled.div`
   display: flex;
   // height: calc(100vh - 4rem); - Centralizar Conteúdo
   align-items: center;
@@ -43,7 +35,7 @@ export const Sobre = styled.div`
   p {
     text-align: center;
     font-size: 1.25rem;
-    line-height: 1.75rem;  
+    line-height: 1.5rem;  
   }
 
   img {
@@ -51,4 +43,17 @@ export const Sobre = styled.div`
     height: 15rem;
     border-radius: 50%;
   }
+`
+
+export const Botao = styled.div`
+  background-color: #f53b57;
+  display: inline-block;
+  font-size: 1rem;
+  width: 6rem;
+  height: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5rem;
 `

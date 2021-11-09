@@ -12,3 +12,31 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
   }
 `
+
+export const Conteudo = styled.div`
+  display: flex;
+  // height: calc(100vh - 4rem); - Centralizar Conteúdo
+  align-items: center;
+  margin-top: 1.5rem;
+  flex-direction: column;
+  color: #FEFCFB;
+
+  p {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem;  
+  }
+`
+
+export const Botao = styled.div`
+  background-color: #f53b57;
+  display: inline-block;
+  font-size: 1rem;
+  width: 6rem;
+  height: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5rem;
+`
