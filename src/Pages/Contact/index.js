@@ -4,8 +4,8 @@ export default function Contact() {
   return (
     <>
       <Conteudo>
-        <Botao>Conteudo</Botao>
-        <p>Aqui estão os meus projetos pessoais e profissionais <br/> Disponibilizo tanto o live preview do site, quanto o código, hospedado no Github</p>
+        <Botao>Contato</Botao>
+        <p>Ficou interessado e quer entrar em contato?<br/>Preencha o formulário abaixo, te responderei o mais breve possível</p>
       </Conteudo>
     </>
   );

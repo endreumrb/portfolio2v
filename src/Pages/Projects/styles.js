@@ -20,12 +20,12 @@ export const Conteudo = styled.div`
   margin-top: 1.5rem;
   flex-direction: column;
   color: #FEFCFB;
+`
 
-  p {
-    text-align: center;
-    font-size: 1.25rem;
-    line-height: 1.5rem;  
-  }
+export const SubTitulo = styled.h2`
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5rem; 
 `
 
 export const Botao = styled.div`
@@ -39,4 +39,34 @@ export const Botao = styled.div`
   text-align: center;
   vertical-align: middle;
   line-height: 1.5rem;
+  user-select: none;
 `
+
+export const Projeto = styled.div`
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+`
+
+export const Quadro = styled.div`
+  width: 300px;
+  height: 300px;
+  border: 1px solid #656565;
+  margin: 0 2rem 1.5rem 0;
+`
+
+export const ImagemPreview = styled.img`
+  width: 100%;
+`
+
+export const ImagemGit = styled.img`
+  width: 24px;
+  margin-right: .5rem;
+`
+
+export const ImagemWeb = styled.img`
+  width: 24px;
+`
+

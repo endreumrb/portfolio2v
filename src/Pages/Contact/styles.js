@@ -39,4 +39,5 @@ export const Botao = styled.div`
   text-align: center;
   vertical-align: middle;
   line-height: 1.5rem;
+  user-select: none;
 `
