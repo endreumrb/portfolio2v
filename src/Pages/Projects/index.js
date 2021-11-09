@@ -1,9 +1,12 @@
-import { Conteudo, Botao, SubTitulo, Projeto, Quadro, ImagemPreview, ImagemGit, ImagemWeb } from './styles';
+import { Conteudo, Botao, SubTitulo, Projeto, Quadro, ImagemPreview, SocialMedia } from './styles';
+import React, { useEffect } from 'react';
+
 import listaProjetos from './../../Assets/script/projetos';
 import githubImagem from '../../Assets/imagens/github.png';
 import websiteImagem from '../../Assets/imagens/website.png';
 
 export default function Projects() {
+
   return (
     <>
       <Conteudo>
@@ -16,8 +19,10 @@ export default function Projects() {
               <h4>{element.data}</h4>
               <ImagemPreview src={element.imagem_preview}></ImagemPreview>
               <p>{element.sobre}</p>
-              <ImagemGit src={githubImagem}></ImagemGit>
-              <ImagemWeb src={websiteImagem}></ImagemWeb>
+              <SocialMedia>
+                <img src={githubImagem}></img>
+                <img src={websiteImagem}></img>
+              </SocialMedia>
             </Quadro>
           )}
         </Projeto>

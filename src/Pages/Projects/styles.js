@@ -51,22 +51,41 @@ export const Projeto = styled.div`
 `
 
 export const Quadro = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border: 1px solid #656565;
-  margin: 0 2rem 1.5rem 0;
+  margin: 0 3rem 1.5rem 0;
+  padding: 0.75rem 0rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+
+  h3 {
+    margin: 0 0 .25rem .75rem;
+  }
+
+  h4 {
+    margin: 0 0 .5rem .75rem;
+  }
+
+  p {
+    margin: .5rem 0 0 .75rem;
+  }
 `
 
 export const ImagemPreview = styled.img`
   width: 100%;
 `
 
-export const ImagemGit = styled.img`
-  width: 24px;
-  margin-right: .5rem;
-`
+export const SocialMedia = styled.div`
+  
+  margin-top: auto;
 
-export const ImagemWeb = styled.img`
-  width: 24px;
+  img {
+    width: 24px;
+    margin-left: 0.75rem;
+    cursor: pointer;
+  }
+
 `
 
