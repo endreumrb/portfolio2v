@@ -84,7 +84,6 @@ export const SocialMedia = styled.div`
   img {
     width: 24px;
     margin-left: 0.75rem;
-    cursor: pointer;
   }
 
 `

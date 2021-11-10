@@ -1,5 +1,5 @@
 import { Conteudo, Botao, SubTitulo, Projeto, Quadro, ImagemPreview, SocialMedia } from './styles';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import listaProjetos from './../../Assets/script/projetos';
 import githubImagem from '../../Assets/imagens/github.png';
@@ -20,8 +20,8 @@ export default function Projects() {
               <ImagemPreview src={element.imagem_preview}></ImagemPreview>
               <p>{element.sobre}</p>
               <SocialMedia>
-                <img src={githubImagem}></img>
-                <img src={websiteImagem}></img>
+                <a href={element.link_github} target="_blank"><img src={githubImagem}></img></a>
+                <a href={element.link_preview} target="_blank"><img src={websiteImagem}></img></a>
               </SocialMedia>
             </Quadro>
           )}
