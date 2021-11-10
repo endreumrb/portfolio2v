@@ -26,7 +26,6 @@ export const Titulo = styled.h2`
 
 export const Conteudo = styled.div`
   display: flex;
-  // height: calc(100vh - 4rem); - Centralizar Conteúdo
   align-items: center;
   margin-top: 7.5rem;
   flex-direction: column;
@@ -35,7 +34,11 @@ export const Conteudo = styled.div`
   p {
     text-align: center;
     font-size: 1.25rem;
-    line-height: 1.5rem;  
+    line-height: 1.5rem;
+    
+    @media (min-width: 425px) and (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 
   img {

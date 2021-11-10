@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Conteudo = styled.div`
   display: flex;
-  // height: calc(100vh - 4rem); - Centralizar Conteúdo
   align-items: center;
   margin-top: 1.5rem;
   flex-direction: column;
@@ -26,6 +25,11 @@ export const SubTitulo = styled.h2`
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.5rem; 
+  padding: 0 2rem;
+
+  @media (min-width: 425px) and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `
 
 export const Botao = styled.div`
@@ -48,6 +52,10 @@ export const Projeto = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 3rem;
+
+  @media (min-width: 425px) and (max-width: 768px) {
+    padding: 0 1rem;
+  }
 `
 
 export const Quadro = styled.div`
@@ -72,12 +80,14 @@ export const Quadro = styled.div`
     margin: .5rem 0 0 .75rem;
     line-height: 1.25rem;
   }
+
+  @media (max-width: 425px) {
+    margin: 0 0 1rem 0;
+  }
 `
 
 export const ImagemPreview = styled.img`
-  width: 100%;
-
-  
+  width: 100%; 
 `
 
 export const SocialMedia = styled.div`

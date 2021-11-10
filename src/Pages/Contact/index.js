@@ -31,7 +31,7 @@ export default function Contact() {
           <EntradaDados type="subject" name="user_subject" required/>
           <label>Mensagem</label>
           <textarea name="message" required/>
-          <Enviar type="submit" value="Send" />
+          <Enviar type="submit" value="Enviar" />
         </Formulario>
       </Conteudo>
     </>

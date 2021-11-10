@@ -11,7 +11,7 @@ export default function Projects() {
     <>
       <Conteudo>
         <Botao>Projetos</Botao>
-        <SubTitulo>Aqui estão os meus projetos pessoais e profissionais<br/>Disponibilizo tanto o live preview do site, quanto o código, hospedado no Github</SubTitulo>
+        <SubTitulo>Aqui estão alguns dos meus projetos pessoais e profissionais e uma breve descrição deles<br/>Caso queria conhecer mais sobre projeto, está disponível para acesso o live preview do site, quanto o código, hospedado no Github</SubTitulo>
         <Projeto>
           {listaProjetos.map((element,i) => 
             <Quadro>

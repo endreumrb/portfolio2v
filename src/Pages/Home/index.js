@@ -8,7 +8,7 @@ export default function Home() {
       <Conteudo>
         <img alt="Endreu Benites" src={fotoMinha}></img>
         <Botao>Front End</Botao>
-        <p>Sou desenvolvedor front-end<br/>Utilizo como principal ferramenta de trabalho, o React!</p>
+        <p>Prazer, meu nome é Endreu Benites e sou Desenvolvedor Front-End<br/>Para tirar minhas ideias do papel, utilizo como principal ferramenta o ReactJS</p>
       </Conteudo>
     </>
   );

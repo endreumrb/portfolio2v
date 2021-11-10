@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Conteudo = styled.div`
   display: flex;
-  // height: calc(100vh - 4rem); - Centralizar Conteúdo
   align-items: center;
   margin-top: 1.5rem;
   flex-direction: column;
@@ -26,6 +25,10 @@ export const Conteudo = styled.div`
     font-size: 1.25rem;
     line-height: 1.5rem; 
     margin-bottom: 2rem;
+
+    @media (min-width: 425px) and (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 `
 
@@ -64,7 +67,19 @@ export const Formulario = styled.form`
       box-shadow: 0 0 0 0;
       outline: 0;
     }
-  } 
+
+    @media (min-width: 425px) and (max-width: 768px) {
+      width: 20rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: 30rem;
+    }
+
+    @media (min-width: 1024px) {
+      width: 40rem;
+    }
+  }
 `
 
 export const EntradaDados = styled.input`
@@ -82,6 +97,18 @@ export const EntradaDados = styled.input`
     border-bottom: 1px solid #f53b57;
     box-shadow: 0 0 0 0;
     outline: 0;
+  }
+
+  @media (min-width: 425px) and (max-width: 768px) {
+    width: 20rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 30rem;
+  }
+
+  @media (min-width: 1024px) {
+    width: 40rem;
   }
 `
 
@@ -104,6 +131,18 @@ export const Enviar = styled.input`
     background-color: #c92c44;
     font-size: 1.075rem;
     border: 1px solid #111;
+  }
+
+  @media (min-width: 425px) and (max-width: 768px) {
+    width: 20rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px)  {
+    width: 30rem;
+  }
+
+  @media (min-width: 1024px) {
+    width: 40rem;
   }
 `
 

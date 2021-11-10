@@ -37,16 +37,32 @@ export const NavBar = styled.nav`
   ul li {
     list-style-type: none;
     margin-left: 3rem;
+
+    @media (max-width: 425px) {
+      margin-left: 1rem;
+    }
   }
 
   ul li a {
     text-decoration: none;
     color: #FEFCFB;
     font-size: 1.1rem;
+
+    @media (max-width: 425px) {
+      font-size: 1rem;
+    }
   }
 
   ul li a:hover {
     color: #f53b57;
+  }
+
+  @media (min-width: 425px) and (max-width: 1024px) {
+    padding: 0 5rem;
+  }
+
+  @media (max-width: 425px) {
+    padding: 0 1rem;
   }
 `
 
@@ -58,5 +74,9 @@ export const Titulo = styled.h2`
 
   span {
     color: #f53b57;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 1.2rem;
   }
 `
