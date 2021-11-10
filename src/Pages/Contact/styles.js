@@ -24,7 +24,8 @@ export const Conteudo = styled.div`
   p {
     text-align: center;
     font-size: 1.25rem;
-    line-height: 1.5rem;  
+    line-height: 1.5rem; 
+    margin-bottom: 2rem;
   }
 `
 
@@ -41,3 +42,68 @@ export const Botao = styled.div`
   line-height: 1.5rem;
   user-select: none;
 `
+
+export const Formulario = styled.form`
+  display: flex;
+  flex-direction: column;
+
+  textarea {
+    width: 50rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-size: 1rem;
+    resize: none;
+    border: 1px solid #121212;
+    background-color: #212121;
+    color: #FEFCFB;
+    border-radius: 10px;
+
+    :focus {
+      border-bottom: 1px solid #f53b57;
+      box-shadow: 0 0 0 0;
+      outline: 0;
+    }
+  } 
+`
+
+export const EntradaDados = styled.input`
+  width: 50rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  font-size: 1rem;
+  border: 1px solid #121212;
+  background-color: #212121;
+  color: #FEFCFB;
+  border-radius: 10px;
+
+  :focus {
+    border-bottom: 1px solid #f53b57;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+`
+
+export const Enviar = styled.input`
+  width: 50rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #121212;
+  background-color: #212121;
+  color: #FEFCFB;
+  line-height: 2rem;
+  cursor: pointer;
+  background-color: #f53b57;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: all .5s;
+
+  :hover {
+    background-color: #c92c44;
+    font-size: 1.075rem;
+    border: 1px solid #111;
+  }
+`
+

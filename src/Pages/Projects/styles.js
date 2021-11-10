@@ -54,7 +54,7 @@ export const Quadro = styled.div`
   width: 400px;
   height: 400px;
   border: 1px solid #656565;
-  margin: 0 3rem 1.5rem 0;
+  margin: 0 3rem 2rem 0;
   padding: 0.75rem 0rem;
   display: flex;
   flex-direction: column;
