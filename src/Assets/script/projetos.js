@@ -10,8 +10,7 @@ const listaProjetos = [
         titulo: 'UPixels HUB',
         data: '21 de Setembro, 2021',
         imagem_preview: uPixels_Img,
-        sobre: 'A ideia inicial deste projeto foi praticar e aprimorar meus conhecimentos das bibliotecas ReactJS e Styled Components.',
-        link_github: '',
+        sobre: 'Projeto desenvolvido junto a equipe da UnitGames, se trata de um “website” que auxilia jogadores de CS:GO, onde tive contato com tecnologias frontend e backend.',
         link_preview: 'https://app.unitgames.com.br/'
     },
     {
@@ -26,7 +25,7 @@ const listaProjetos = [
         titulo: 'Portifólio Pessoal',
         data: '11 de Novembro, 2021',
         imagem_preview: portifolio_Img,
-        sobre: 'A ideia inicial deste projeto foi praticar e aprimorar meus conhecimentos das bibliotecas ReactJS e Styled Components.',
+        sobre: 'Portfólio pessoal, onde exibo projetos já realizados e apresento quais foram tecnologias utilizadas.',
         link_github: 'https://github.com/endreumrb/portfolio2v',
         link_preview: 'https://endreubenites.com'
     },
@@ -34,7 +33,7 @@ const listaProjetos = [
         titulo: 'TodoList',
         data: '16 de Agosto, 2021',
         imagem_preview: todoList_Img,
-        sobre: 'Realizar um projeto prático consumindo uma API publica (JsonPlaceHolder).',
+        sobre: 'Projeto prático consumindo uma API publica (JsonPlaceHolder), utilizano ReactJS e Styled Components.',
         link_github: 'https://github.com/endreumrb/TodoList-ReactJS',
         link_preview: 'https://todolist-endreubenites.netlify.app'
     },
@@ -42,7 +41,7 @@ const listaProjetos = [
         titulo: 'Starbucks',
         data: '28 de Junho, 2021',
         imagem_preview: starbucks_Img,
-        sobre: 'Lorem Ipsun',
+        sobre: 'Cópia do antigo “website” utilizado pela empresa Starbucks, feito em HTML e CSS.',
         link_github: 'https://github.com/endreumrb/starbucks-copy',
         link_preview: 'https://starbucks-endreubenites.netlify.app'
     },
@@ -50,7 +49,7 @@ const listaProjetos = [
         titulo: 'MediCenter',
         data: '09 de Julho, 2021',
         imagem_preview: medicenter_Img,
-        sobre: 'Lorem Ipsun',
+        sobre: 'Landing page para a empresa fictícia medicenter, feito em HTML e CSS.',
         link_github: 'https://github.com/endreumrb/medicenter',
         link_preview: 'https://medicenter-endreubenites.netlify.app'
     }

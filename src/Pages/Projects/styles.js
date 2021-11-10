@@ -70,20 +70,27 @@ export const Quadro = styled.div`
 
   p {
     margin: .5rem 0 0 .75rem;
+    line-height: 1.25rem;
   }
 `
 
 export const ImagemPreview = styled.img`
   width: 100%;
+
+  
 `
 
 export const SocialMedia = styled.div`
-  
   margin-top: auto;
 
   img {
     width: 24px;
     margin-left: 0.75rem;
+    transition: all .5s;
+
+    :hover {
+      transform: scale(1.25);
+    }
   }
 
 `
