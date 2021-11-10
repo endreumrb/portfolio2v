@@ -1,12 +1,6 @@
-<h1 align="center">
-  <br>
-  <img src="https://github.com/endreumrb/portfolio2v/blob/main/src/Assets/imagens/logo.jpg" alt="Logo Postifólio" width="125">
-  <br><br>
-</h1>
+<p align="center">Está precisando de um bom profissional, que tal dar uma olhada nesse portfólio?</p>
 
-<p align="center">Está prexisando de um bom profissional, que tal dar uma olhada nesse portfólio?</p>
-
-<p align="center"><i>“Ninguém é tão grande que não possa aprender, nem tão Pequeno que não possa Ensinar” — Voltaire</i></p>
+<p align="center"><i>“Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensinar” — Voltaire</i></p>
 
 <p align="center">
  <a href="#blush-objetivo">Objetivo</a> •
@@ -31,7 +25,7 @@
 
 <p align="center">
   <kbd>
-    <img width="400" style="padding-right: 5px; border-radius: 5px" src="https://github.com/endreumrb/portfolio2v/blob/main/src/Assets/imagens/portifolio.jpg" alt="Intro">
+    <img width="500" style="padding-right: 5px; border-radius: 5px" src="https://github.com/endreumrb/portfolio2v/blob/main/src/Assets/imagens/portifolio.jpg" alt="Intro">
   </kbd>
 </p>
 
