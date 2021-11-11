@@ -36,7 +36,7 @@ export const Conteudo = styled.div`
     font-size: 1.25rem;
     line-height: 1.5rem;
     
-    @media (min-width: 425px) and (max-width: 768px) {
+    @media (max-width: 768px) {
       font-size: 1rem;
     }
   }

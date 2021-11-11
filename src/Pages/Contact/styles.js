@@ -26,7 +26,7 @@ export const Conteudo = styled.div`
     line-height: 1.5rem; 
     margin-bottom: 2rem;
 
-    @media (min-width: 425px) and (max-width: 768px) {
+    @media (max-width: 768px) {
       font-size: 1rem;
     }
   }
@@ -68,7 +68,7 @@ export const Formulario = styled.form`
       outline: 0;
     }
 
-    @media (min-width: 425px) and (max-width: 768px) {
+    @media (max-width: 768px) {
       width: 20rem;
     }
 
@@ -99,7 +99,7 @@ export const EntradaDados = styled.input`
     outline: 0;
   }
 
-  @media (min-width: 425px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 20rem;
   }
 
@@ -133,7 +133,7 @@ export const Enviar = styled.input`
     border: 1px solid #111;
   }
 
-  @media (min-width: 425px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 20rem;
   }
 

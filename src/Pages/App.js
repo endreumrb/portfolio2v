@@ -1,4 +1,4 @@
-import { GlobalStyle, Header, NavBar, Titulo } from './styles';
+import { GlobalStyle, Header, NavBar, Titulo, Footer } from './styles';
 import {
   BrowserRouter as Router,
   Routes,

@@ -53,7 +53,7 @@ export const Projeto = styled.div`
   flex-wrap: wrap;
   padding: 0 3rem;
 
-  @media (min-width: 425px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     padding: 0 1rem;
   }
 `
